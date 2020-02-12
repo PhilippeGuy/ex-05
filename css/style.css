@@ -628,13 +628,23 @@ l'état checked est testé ici:
 }
 
 .slide-wrap a {
-  text-decoration: none;
-  background-color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 50%;
-  padding: 10px;
+  border: 1px solid black;
   margin: 0 0 0.5rem 0;
+  position: relative;
 }
 
 .slider {
