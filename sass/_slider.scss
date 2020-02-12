@@ -4,7 +4,7 @@
 
 .slide-wrap a{
     text-decoration: none;
-    background-color: slateblue;
+    background-color: white;
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
@@ -22,8 +22,16 @@
     scroll-behavior: smooth;
 }
 
+.slider::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
 
 .slide {
+    font-size: 14pt;
+    color: white;
+    font-weight: bold;
     width: 300px;
     flex-shrink: 0;
     height: 100%;
