@@ -661,8 +661,13 @@ l'état checked est testé ici:
 }
 
 .slider::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
   height: 10px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
 }
 
 .slide {
