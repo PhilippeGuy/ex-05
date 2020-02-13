@@ -679,6 +679,35 @@ l'état checked est testé ici:
 }
 
 /*--------------------------------------------------------------
+# animation entete 
+----------------------------------------------------------------*/
+@-webkit-keyframes animEntete {
+  from {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes animEntete {
+  from {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.animEntete {
+  -webkit-animation: animEntete 1s ease-out;
+          animation: animEntete 1s ease-out;
+}
+
+/*--------------------------------------------------------------
 # Pied-page 
 ----------------------------------------------------------------*/
 /*
