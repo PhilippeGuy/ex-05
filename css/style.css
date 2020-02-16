@@ -647,6 +647,15 @@ l'état checked est testé ici:
   position: relative;
 }
 
+.slide-wrap a:hover {
+  background: black;
+}
+
+.slide-wrap a:visited {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 .slider {
   width: 300px;
   height: 300px;
