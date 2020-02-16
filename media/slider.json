@@ -1,0 +1,9 @@
+{
+    "images":[
+        { "nom":"Kiwi", "lien":"images/Kiwi.jpg"},
+        { "nom":"Chameau", "lien":"images/Camel.jpg"},
+        { "nom":"Donkey Kong", "lien":"images/DK.jpg"},
+        { "nom":"Sandwich", "lien":"images/sandwich.png"},
+        { "nom":"Reese", "lien":"images/reese.jpg"}
+    ]
+}
