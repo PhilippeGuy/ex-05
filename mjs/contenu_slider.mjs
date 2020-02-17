@@ -1,10 +1,10 @@
 /**
  * class qui génère le contenu du slider de la page à partir d'un fichier .json
  */
-export class contenu_slider{
-    constructor(elmSlides,images){
+export class creation_slider{
+    constructor(elmSlides,contenuSlider){
         this.elmSlides = elmSlides;
-        this.images = images;
+        this.contenuSlider = contenuSlider;
     }
 
     /**
@@ -12,12 +12,12 @@ export class contenu_slider{
      */
     genererImages(){
         console.log('début génération');
-        console.log(this.imagesJson);
+        console.log(this.contenuSlider.images[0].lien);
         const slides = this.elmSlides;
 
         for(let i=0; i<slides.length; i++){
-            slides[i].style.backgroundImage = "";
-            console.log(i+1);
+            slides[i].style.backgroundImage = "url("+this.contenuSlider.images[i].lien+")";
+            console.log(this.contenuSlider.images[i].lien);
         }
     }
 }
