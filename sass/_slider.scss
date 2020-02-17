@@ -2,6 +2,8 @@
     text-align: center;
 }
 
+
+//style qui influence les boutons du slider
 .slide-wrap a{
     display: inline-flex;
     width: 1.5rem;
@@ -25,6 +27,7 @@
     height: 1.6rem;
 }
 
+//définition de la grandeur de la vue du slider et de son scroll
 .slider {
     width: 300px;
     height: 300px;
@@ -35,16 +38,18 @@
     scroll-behavior: smooth;
 }
 
+//changement du scrollbar
 .slider::-webkit-scrollbar{
     width: 8px;
     height: 10px;
 }
-
 .slider::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 10px;
 }
 
+
+//propriété d'une slide du slider
 .slide {
     font-size: 14pt;
     color: white;

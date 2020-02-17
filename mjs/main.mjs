@@ -12,7 +12,10 @@ let contenuSlider = {
     ]
 }
 
+//éléments qui seront animé dans l'entête
 let elmEntete = document.querySelectorAll("header .global>*");
+
+//éléments qui font partient du slider
 let elmSlides = document.querySelectorAll(".slide");
 
 const animEntete = new anim_entete(elmEntete);
