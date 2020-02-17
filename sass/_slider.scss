@@ -56,5 +56,8 @@
     border-radius: 15%;
     scroll-snap-align: start;
     
+    //gestion du fond pour le préparer à recevoir l'image
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
